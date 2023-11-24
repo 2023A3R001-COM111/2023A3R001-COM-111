@@ -1,4 +1,4 @@
-#include<stdio.h>
+// Check whether temperature is cold or hot #include<stdio.h>
 #include<math.h>
 int main ()
 {
