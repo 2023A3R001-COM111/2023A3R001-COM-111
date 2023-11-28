@@ -1,3 +1,4 @@
+// Student batch and marks
 #include<stdio.h>
 
 typedef int Units;
