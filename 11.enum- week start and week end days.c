@@ -1,3 +1,4 @@
+// weak start and weak end
 #include<stdio.h>
 enum day{monday, tuesday, wednesday, thursday, friday, saturday};
 int main()
