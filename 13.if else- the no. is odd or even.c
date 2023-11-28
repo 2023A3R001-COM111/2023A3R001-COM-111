@@ -1,4 +1,4 @@
-#include<stdio.h>
+//Check whether number is even or odd #include<stdio.h>
 int main()
 {
     int a;
