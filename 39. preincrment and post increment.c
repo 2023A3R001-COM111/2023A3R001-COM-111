@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main ()
 {
-    int x=5,y,z;
-    printf("%d\n",x);
-    y=++x;
-    printf("%d\n",y);
-    z=x++;
-    printf("%d\n", z);
+    int a=5,p,q;
+    printf("%d\n",a);
+    p=++a;
+    printf("%d\n",a);
+    q=a++;
+    printf("%d\n", q);
     return 0;
 }
