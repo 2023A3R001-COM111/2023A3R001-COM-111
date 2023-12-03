@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-  int i,n=2,a,prime=0;
+  int a,n=2,a,prime=0;
   printf("Enter the number:");
-  scanf("%d",&i);
-  while(n<i)
+  scanf("%d",&a);
+  while(n<a)
   {
-    if(i%n==0)
+    if(a%n==0)
     {
       prime++;
     }
