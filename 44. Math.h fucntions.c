@@ -2,8 +2,8 @@
 #include<math.h>
 int main ()
 {
-    double x=2.7;
-    double y=3.4;
+    double x=3.8;
+    double y=4.5;
     //Square root
     printf("Square root of %.2f: %.2f\n",x,sqrt(x));
     //Exponential function
