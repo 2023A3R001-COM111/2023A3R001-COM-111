@@ -4,7 +4,7 @@
 #define PI 3.14159265359 
 int main() 
 { 
-    int radius=21;
+    int radius=25;
 	int area;
 
     area = PI * radius * radius; 
