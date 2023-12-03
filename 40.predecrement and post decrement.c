@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main ()
 {
-    int x=5,y,z;
+    int a=5,p,q;
     printf("%d\n",x);
-    y=--x;
+    p=--a;
     printf("%d\n",y);
-    z=x--;
+    q=a--;
     printf("%d\n", z);
     return 0;
 }
