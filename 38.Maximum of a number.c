@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main ()
 {
-    int n;
+    int x;
     printf("Enter the number of elements: ");
-    scanf("%d", &n);
-    if (n<=0)
+    scanf("%d", &x);
+    if (x<=0)
     {
         printf("Invalid Input");
         return 1;
