@@ -15,7 +15,7 @@ int main ()
              printf("The weather is cold today");
      }
      else
-        printf("The weather is hot today");
+        printf("The weather is hot today ");
 
 
  return 0;
