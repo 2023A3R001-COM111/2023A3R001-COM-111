@@ -2,25 +2,25 @@
 
 int main()
 {
-    int numa, numb, numc;
-	printf("Enter Number A: ");
-	scanf("%d", &numa);
-	printf("Enter Number B: ");
-	scanf("%d", &numb);
-	printf("Enter Number C: ");
-	scanf("%d", &numc);
+    int numx, numy, numz;
+	printf("Enter Number X: ");
+	scanf("%d", &numx);
+	printf("Enter Number Y: ");
+	scanf("%d", &numy);
+	printf("Enter Number Z: ");
+	scanf("%d", &numz);
 
-	if (numa >= numb){
-		if (numa >= numc){
-			printf("\nNumber A is Largest of all three.");
+	if (numx >= numy){
+		if (numx >= numz){
+			printf("\nNumber X is Largest of all three.");
 		} else {
-			printf("\nNumber C is Largest of all three.");
+			printf("\nNumber Z is Largest of all three.");
 		}
 	} else {
-		if (numb >= numc){
-			printf("\nNumber B is Largest of all three.");
+		if (numy >= numz){
+			printf("\nNumber Y is Largest of all three.");
 		} else {
-			printf("\nNumber C is Largest of all three.");
+			printf("\nNumber Z is Largest of all three.");
 		}
 	}
 	printf("\n");
