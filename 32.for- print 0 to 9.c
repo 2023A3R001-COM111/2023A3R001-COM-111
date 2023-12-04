@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int x;
+    int p;
 
-    for(x=0;x<=9;x=x+1)
+    for(p=0;p<=9;p=p+1)
     {
-        printf("%d",x);
+        printf("%d",p);
     }
     printf("\n");
 
