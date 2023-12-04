@@ -2,39 +2,39 @@
 int main()
 {
 	// To find Largest of two numbers
-	int x, y;
-	printf("Enter x: ");
-	scanf("%d", &x);
+	int numx, numy;
+	printf("Enter numx: ");
+	scanf("%d", &numx);
 
-	printf("Enter y: ");
-	scanf("%d", &y);
+	printf("Enter numy: ");
+	scanf("%d", &numy);
 
-	if(x>y){
-		printf("%d is greater than %d.", x, y);
+	if(numx>numy){
+		printf("%d is greater than %d.", numx, numy);
 	}
-else if(x == y){
-		printf("%d(x) is equals to %d(y).", x, y);
+else if(numx == numy){
+		printf("%d(x) is equals to %d(y).", numx, numy);
 	}
 else{
-		printf("%d is greater than %d.", y, x);
+		printf("%d is greater than %d.", numy, numx);
 	}
 	printf("\n");
     
 	// To find Largest of two numbers
-	printf("Enter x: ");
-	scanf("%d", &x);
+	printf("Enter numx: ");
+	scanf("%d", &numx);
 
-	printf("Enter y: ");
-	scanf("%d", &y);
+	printf("Enter numy: ");
+	scanf("%d", &numy);
 
 	if(x<y){
-		printf("%d is smallest than %d.", x, y);
+		printf("%d is smallest than %d.", numx, numy);
 	}
-else if(x == y){
-		printf("%d(x) is equals to %d(y).", x, y);
+else if(numx == numy){
+		printf("%d(x) is equals to %d(y).", numx, numy);
 	}
 else{
-		printf("%d is smallest than %d.", y, x);
+		printf("%d is smallest than %d.", numy, numx);
 	}
 	printf("\n");
 
