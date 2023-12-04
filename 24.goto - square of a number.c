@@ -2,17 +2,17 @@
 #include<math.h>
 int main ()
 {
-    float x,y;
+    float a,b;
 
 read:
     printf("Enter a non-negative number(or a negative number to exit): ");
-    scanf("%f", &x);
+    scanf("%f", &a);
 
-    if (x<0)
+    if (a<0)
         goto end;
 
-        y=sqrt(x);
-        printf("%f %f\n", x , y);
+        y=sqrt(a);
+        printf("%f %f\n", a , b);
         goto read;
 end:
     printf("Exiting the program.\n");
