@@ -1,21 +1,22 @@
 #include<stdio.h>
 #include<math.h>
 int main ()
-{double x,y;
+{
+double a,b;
 int count =1;
 printf("Enter FIVE real values in a LINE\n");
 
 read:
-    scanf("%lf", &x);
+    scanf("%lf", &a);
 
-    if (x<0)
+    if (a<0)
     {
         printf("Value - %d is negative\n",count);
     }
     else
     {
-        y=sqrt(x);
-        printf("%lf %lf\n", x , y);
+        b=sqrt(a);
+        printf("%lf %lf\n", a , b);
     }
         count = count + 1 ;
         if (count<=5)
