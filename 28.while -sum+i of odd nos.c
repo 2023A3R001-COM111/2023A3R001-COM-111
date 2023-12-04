@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int sum,I;
-    I=1;
+    int sum,X;
+    X=1;
     sum=0;
     do
     {
-        sum=sum +I;
-        I=I+2;
+        sum=sum +X;
+        X=X+2;
     }
-    while(sum<40 && I<10);
-    printf("%d %d\n", I,sum);
+    while(sum<40 && X<10);
+    printf("%d %d\n", X,sum);
 
     return 0;
 }
