@@ -3,7 +3,7 @@
 
 int main()
 {
-  int choice, a, b, result;
+  int choice, x, y, result;
 
 	printf("Select an arithmetic operation from following:");
 	printf("\n 1. Addition.");
@@ -15,21 +15,21 @@ int main()
 	scanf("%d", &choice);
 
 	printf("\nEnter two number: ");
-	scanf("%d %d", &a, &b);
+	scanf("%d %d", &x, &y);
 
 	switch (choice)
   {
 		case 1:
-			result = a + b;
+			result = x + y;
 			break;
 		case 2:
-			result = a - b;
+			result = x - y;
 			break;
 		case 3:
-			result = a * b;
+			result = x * y;
 			break;
 		case 4:
-			result = a / b;
+			result = x / y;
 			break;
 		default:
 			printf("\nEnter a Valid Number!\n");
