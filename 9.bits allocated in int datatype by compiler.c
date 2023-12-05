@@ -1,3 +1,4 @@
+// Allocated in int datatype by compiler
 #include<stdio.h>
 #include<limits.h>
 int main()
