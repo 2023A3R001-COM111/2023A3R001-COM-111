@@ -1,3 +1,4 @@
+// Calculate ratio of a-b to c-d
 #include<stdio.h>
 int main ()
 
