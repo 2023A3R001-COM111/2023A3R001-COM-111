@@ -1,3 +1,4 @@
+// Weekly Salary
 #include<stdio.h>
 int main()
 {
