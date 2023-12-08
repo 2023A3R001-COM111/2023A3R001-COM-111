@@ -1,3 +1,4 @@
+// Evaluate y=x^n 
 #include<stdio.h>
 int main()
 {
