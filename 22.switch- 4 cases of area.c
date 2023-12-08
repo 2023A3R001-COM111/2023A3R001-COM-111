@@ -1,3 +1,4 @@
+// Four Cases of Area
 #include<stdio.h>
 int main()
 {
