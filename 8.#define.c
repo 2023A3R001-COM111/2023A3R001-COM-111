@@ -1,5 +1,5 @@
-#include <stdio.h> 
-// C Program to illustrate how to use #define to declare 
+// Program to illustrate how to use #define to declare 
+#include <stdio.h> 
 // Defining macros with constant value 
 #define PI 3.14159265359 
 int main() 
